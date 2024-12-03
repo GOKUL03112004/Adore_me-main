@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "body_measurements",
+  "info": {
+    "singularName": "body-measurement",
+    "pluralName": "body-measurements",
+    "displayName": "Body Measurement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "height": {
+      "type": "float"
+    },
+    "chest": {
+      "type": "float"
+    },
+    "waist": {
+      "type": "float"
+    },
+    "hips": {
+      "type": "float"
+    },
+    "inseam": {
+      "type": "float"
+    },
+    "userid": {
+      "type": "biginteger"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user",
+      "inversedBy": "body_measurement"
+    },
+    "name": {
+      "type": "string"
+    }
+  }
+}

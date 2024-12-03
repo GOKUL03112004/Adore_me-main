@@ -1,0 +1,154 @@
+/* Account Page Container */
+.account-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 40px auto;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Titles */
+h1, h2 {
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+/* Profile Information Section */
+.profile-info {
+  margin-bottom: 20px;
+  padding: 10px 15px;
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #555;
+  font-size: 16px;
+}
+
+.profile-info strong {
+  color: #333;
+}
+
+/* Loading and Error Messages */
+.loading {
+  color: #777;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.error-message {
+  color: #d9534f;
+  font-weight: bold;
+  margin: 10px 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+/* Body Measurements Section */
+.measurements-info {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+}
+
+.measurement-item {
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  background-color: #fafafa;
+}
+
+.measurement-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.measurement-item strong {
+  color: #333;
+}
+
+/* Account Actions */
+.account-actions {
+  margin-top: 30px;
+  text-align: center;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+
+.logout-button {
+  background-color: #d9534f;
+  color: #fff;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.logout-button:hover {
+  background-color: #c9302c;
+}
+
+.home-button {
+  background-color: #5cb85c;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.home-button:hover {
+  background-color: #4cae4c;
+}
+
+/* Add Measurements Button */
+.account-container button {
+  background-color: #111a21;
+  color: white;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.account-container button:hover {
+  background-color: #025aa5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .account-container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}

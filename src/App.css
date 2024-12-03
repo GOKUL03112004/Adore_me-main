@@ -1,0 +1,111 @@
+/* General App styling */
+.App {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  .App-header {
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+    padding: 20px;
+  }
+  
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-left h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .header-left input {
+    padding: 10px;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 250px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .header-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .header-right button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 20px;
+  }
+  
+  .header-right i {
+    font-size: 20px;
+    margin-right: 15px;
+    cursor: pointer;
+  }
+  
+  .App-nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+  }
+  
+  .App-nav li {
+    margin: 0 15px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .App-main {
+    padding: 20px;
+  }
+  
+  .hero {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .hero-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .hero-text h2 {
+    margin: 0;
+    font-size: 32px;
+  }
+  
+  .hero-text p {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+  
+  .hero-text p:first-of-type {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
